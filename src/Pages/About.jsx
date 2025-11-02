@@ -70,7 +70,7 @@ function About() {
           <a href="/register" className="btn btn-primary btn-lg me-2">
             Join Now
           </a>
-          <a href="/jobs" className="btn btn-outline-primary btn-lg">
+          <a href="/login" className="btn btn-outline-primary btn-lg">
             Browse Jobs
           </a>
         </div>

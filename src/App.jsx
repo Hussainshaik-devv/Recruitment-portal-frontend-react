@@ -10,6 +10,8 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Login from "./Pages/Login";
 import Register from "./Pages/Register";
+import Contact from "./Pages/Contact";
+import Privacy from "./Pages/Privacy";
 
 // Jobseeker Pages
 import JobseekerDashboard from "./Pages/Jobseeker/JobseekerDashboard";
@@ -38,6 +40,8 @@ function App() {
         <Route element={<LandingLayout />}>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/privacy" element={<Privacy />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
         </Route>
